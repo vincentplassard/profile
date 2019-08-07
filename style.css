@@ -49,6 +49,16 @@ p {
   font-family: 'Oswald', sans-serif;
 }
 
+p.post-scriptum {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  text-align: right;
+}
+
 a.btn-blue {
   font-family: 'Teko', sans-serif;
   text-decoration: none;
@@ -65,7 +75,7 @@ a.btn-blue:hover {
   background: #e3e5e8
 }
 
-a.name {
+#name {
   display: inline-block;
   background:
      linear-gradient(
@@ -81,7 +91,7 @@ a.name {
   text-decoration: none;
 }
 
-a.name:hover {
+#name:hover {
   background:
      linear-gradient(
        to right,
