@@ -65,6 +65,32 @@ a.btn-blue:hover {
   background: #e3e5e8
 }
 
+a.name {
+  display: inline-block;
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+    background-repeat: repeat-x;
+    background-size: 100%;
+  color: #575F7D;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+a.name:hover {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     );
+   }
+
 body {
   background-color: #F7F9FC;
   font-family: 'Teko', sans-serif;
